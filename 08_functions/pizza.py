@@ -9,5 +9,5 @@ def make_pizza(size, *toppings):
         if ( topping == 'napolitana' ):
             print('Me encanta la de napolitana!')
         if ( topping == 'extra cheese' ):
-            print('mmmmm, te gusta la de queso extra!')
+            print('mmm... te gusta la de queso extra!')
 
