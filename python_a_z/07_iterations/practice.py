@@ -3,6 +3,28 @@
 
 
 
+s = "Predecir el futuro es muy dificil, especialmente cuando se trata del futuro".lower()
+print(s)
+
+
+# letter_delete = input("Introduce la letra que desea eliminar del string original: ").lower()
+letter_delete = ['a','e']
+
+
+
+for letter in s:
+    if letter in letter_delete:
+        continue
+    print(letter, end="")
+print(s)
+
+
+
+
+
+############################################################################################################
+
+
 s = "La vaca hace muuuu"
 
 i       = 0
@@ -46,6 +68,9 @@ while volver_a_contar:
     volver_a_contar = input("¿Quieres volver a contar? (s/n): ") == "s"
 
 print("Hasta luego")
+
+
+
 
 
 
